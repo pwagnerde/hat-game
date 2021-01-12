@@ -142,6 +142,6 @@ class Field {
   }
 }
 
-let newField = Field.generateField(15, 20, 0.4);
+let newField = Field.generateField(10, 10, 0.1);
 const gameBoard = new Field(newField);
 gameBoard.playGame();
